@@ -490,11 +490,12 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-top: 50px;
   margin-bottom: 0 !important;
 }
-
 #overlay {
   background: #ffffff;
   background-image: url("../images/background/overlay.jpg");
   background-size: cover;
+  background-position: center center; /* penting! */
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -502,6 +503,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   z-index: 2000;
 }
+
 #overlay .content {
   background: rgba(0, 0, 0, 0.7);
   position: relative;
